@@ -2,6 +2,8 @@
 An openbox configuration file, with customization to support keyboard based window tiling. Openbox is a lightweight 
 window manager. Openbox is also used a window manager by LXDE, a light weight desktop environment.
 
+This configuration is made specifically for Lubuntu; to incorporate just the tiling, please select the keybindings after <!-- Keybindings for window tiling -->
+
 ### Moving 1 Window:
 Super key + Keypad (1 - 9) move windows to the expected screen edge
 Super key + Keypad 5 maximizes the window
