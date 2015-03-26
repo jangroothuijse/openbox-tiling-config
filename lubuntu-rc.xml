@@ -326,13 +326,13 @@
     <keybind key="W-KP_4"><!-- left-halve -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-      	<x>0</x><y>0</y><height>100%</height><width>50%</width>
+      	<x>0</x><y>0</y><width>50%</width><height>100%</height>
       </action>
     </keybind>
     <keybind key="W-KP_6"><!-- right-halve -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-      	<x>-0</x><y>0</y><height>100%</height><width>50%</width>
+      	<x>-0</x><y>0</y><width>50%</width><height>100%</height>
       </action>
     </keybind>
     <keybind key="W-KP_8"><!-- top-halve -->
@@ -377,57 +377,57 @@
     <keybind key="W-A-KP_4"><!-- left-halve -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-      	<x>0</x><y>0</y><height>100%</height><width>65%</width>
+      	<x>0</x><y>0</y><width>43/64</width><height>100%</height>
       </action>
     </keybind>
     <keybind key="W-A-KP_6"><!-- right-halve -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-      	<x>-0</x><y>0</y><height>100%</height><width>35%</width>
+      	<x>-0</x><y>0</y><width>21/64</width><height>100%</height>
       </action>
     </keybind>
     <keybind key="W-A-KP_8"><!-- top-halve -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-      	<x>center</x><y>0</y><width>30%</width><height>50%</height>
+      	<x>center</x><y>0</y><width>22/64</width><height>50%</height>
       </action>
     </keybind>
     <keybind key="W-A-KP_2"><!-- bottom-halve -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-      	<x>center</x><y>-0</y><width>30%</width><height>50%</height>
+      	<x>center</x><y>-0</y><width>22/64</width><height>50%</height>
       </action>
     </keybind>
     <!-- Quarter screens -->
     <keybind key="W-A-KP_7"><!-- top-left -->
     	<action name="UnmaximizeFull" />
     	<action name="MoveResizeTo">
-    		<x>0</x><y>0</y><width>65%</width><height>50%</height>
+    		<x>0</x><y>0</y><width>43/64</width><height>50%</height>
     	</action>
     </keybind>
     <keybind key="W-A-KP_9"><!-- top-right -->
     	<action name="UnmaximizeFull" />
     	<action name="MoveResizeTo">
-    		<x>-0</x><y>0</y><width>35%</width><height>50%</height>
+    		<x>-0</x><y>0</y><width>21/64</width><height>50%</height>
     	</action>
     </keybind>
     <keybind key="W-A-KP_3"><!-- bottom-right -->
     	<action name="UnmaximizeFull" />
     	<action name="MoveResizeTo">
-    		<x>-0</x><y>-0</y><width>35%</width><height>50%</height>
+    		<x>-0</x><y>-0</y><width>21/64</width><height>50%</height>
     	</action>
     </keybind>
     <keybind key="W-A-KP_1"><!-- bottom-left -->
     	<action name="UnmaximizeFull" />
     	<action name="MoveResizeTo">
-    		<x>0</x><y>-0</y><width>65%</width><height>50%</height>
+    		<x>0</x><y>-0</y><width>43/64</width><height>50%</height>
     	</action>
     </keybind>
     <!-- middle vertical -->    
     <keybind key="W-A-KP_5"><!-- bottom-left -->
     	<action name="UnmaximizeFull" />
     	<action name="MoveResizeTo">
-    		<x>center</x><y>0</y><width>30%</width><height>100%</height>
+    		<x>center</x><y>0</y><width>22/64</width><height>100%</height>
     	</action>
     </keybind>
     
@@ -435,57 +435,57 @@
     <keybind key="W-C-KP_4"><!-- left-halve -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-      	<x>0</x><y>0</y><height>100%</height><width>35%</width>
+      	<x>0</x><y>0</y><width>21/64</width><height>100%</height>
       </action>
     </keybind>
     <keybind key="W-C-KP_6"><!-- right-halve -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-      	<x>-0</x><y>0</y><height>100%</height><width>65%</width>
+      	<x>-0</x><y>0</y><width>43/64</width><height>100%</height>
       </action>
     </keybind>
     <keybind key="W-C-KP_8"><!-- top-halve -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-      	<x>center</x><y>0</y><width>30%</width><height>50%</height>
+      	<x>center</x><y>0</y><width>22/64</width><height>50%</height>
       </action>
     </keybind>
     <keybind key="W-C-KP_2"><!-- bottom-halve -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-      	<x>center</x><y>-0</y><width>30%</width><height>50%</height>
+      	<x>center</x><y>-0</y><width>22/64</width><height>50%</height>
       </action>
     </keybind>
     <!-- Quarter screens -->
     <keybind key="W-C-KP_7"><!-- top-left -->
     	<action name="UnmaximizeFull" />
     	<action name="MoveResizeTo">
-    		<x>0</x><y>0</y><width>35%</width><height>50%</height>
+    		<x>0</x><y>0</y><width>21/64</width><height>50%</height>
     	</action>
     </keybind>
     <keybind key="W-C-KP_9"><!-- top-right -->
     	<action name="UnmaximizeFull" />
     	<action name="MoveResizeTo">
-    		<x>-0</x><y>0</y><width>65%</width><height>50%</height>
+    		<x>-0</x><y>0</y><width>43/64</width><height>50%</height>
     	</action>
     </keybind>
     <keybind key="W-C-KP_3"><!-- bottom-right -->
     	<action name="UnmaximizeFull" />
     	<action name="MoveResizeTo">
-    		<x>-0</x><y>-0</y><width>65%</width><height>50%</height>
+    		<x>-0</x><y>-0</y><width>43/64</width><height>50%</height>
     	</action>
     </keybind>
     <keybind key="W-C-KP_1"><!-- bottom-left -->
     	<action name="UnmaximizeFull" />
     	<action name="MoveResizeTo">
-    		<x>0</x><y>-0</y><width>35%</width><height>50%</height>
+    		<x>0</x><y>-0</y><width>21/64</width><height>50%</height>
     	</action>
     </keybind>
     <!-- middle vertical -->    
     <keybind key="W-C-KP_5"><!-- bottom-left -->
     	<action name="UnmaximizeFull" />
     	<action name="MoveResizeTo">
-    		<x>center</x><y>0</y><width>30%</width><height>100%</height>
+    		<x>center</x><y>0</y><width>22/64</width><height>100%</height>
     	</action>
     </keybind>
         
@@ -496,9 +496,31 @@
     <keybind key="W-Delete">
 	    <action name="ToggleDecorations"/>
     </keybind>
-    <keybind key="W-End">
+    <keybind key="W-KP_Subtract">
 	    <action name="Iconify"/>
     </keybind>
+    
+    <!-- Directional Window selection: http://openbox.org/wiki/Help:WindowsInteractionWithWindowsKey --> 
+	<keybind key="W-Up">
+		<action name="DirectionalFocusNorth">
+			<dialog>no</dialog>
+		</action>
+	</keybind>
+	<keybind key="W-Down">
+		<action name="DirectionalFocusSouth">
+			<dialog>no</dialog>
+		</action>
+	</keybind>
+	<keybind key="W-Left">
+		<action name="DirectionalFocusWest">
+			<dialog>no</dialog>
+		</action>
+	</keybind>
+	<keybind key="W-Right">
+		<action name="DirectionalFocusEast">
+			<dialog>no</dialog>
+		</action>
+	</keybind>
     
     <!-- Multi monitor window movement -->
     
@@ -511,7 +533,7 @@
 	
     <!-- Multi window tiling -->
     <!-- 2 Windows -->
-    <keybind key="W-Next"><!-- horizontal tiling -->
+    <keybind key="W-KP_0"><!-- horizontal tiling -->
 	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
 	  <action name="MoveResizeTo">
 	  	<x>0</x><y>0</y><height>100%</height><width>50%</width>
@@ -519,14 +541,14 @@
 	  <action name="NextWindow">
 	  	<interactive>no</interactive><dialog>none</dialog>	  	
 	    <finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
 		  	<x>-0</x><y>0</y><height>100%</height><width>50%</width>
 		  </action> 
 		</finalactions>
 	  </action> 
     </keybind>
-    <keybind key="W-Prior"><!-- vertical tiling -->
+    <keybind key="W-KP_Enter"><!-- vertical tiling -->
 	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
 	  <action name="MoveResizeTo">
 	  	<x>0</x><y>0</y><height>50%</height><width>100%</width>
@@ -534,39 +556,39 @@
 	  <action name="NextWindow">
 	  	<interactive>no</interactive><dialog>none</dialog>	  	
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
 		  	<x>0</x><y>-0</y><height>50%</height><width>100%</width>
 		  </action>
 	    </finalactions>
 	  </action>
     </keybind>
-    <keybind key="W-A-Next"><!-- horizontal tiling left -->
+    <keybind key="W-A-KP_0"><!-- horizontal tiling left -->
 	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
 	  <action name="MoveResizeTo">
-	  	<x>0</x><y>0</y><height>100%</height><width>66%</width>
+	  	<x>0</x><y>0</y><height>100%</height><width>43/64</width>
 	  </action>
 	  <action name="NextWindow">
 	  	<interactive>no</interactive><dialog>none</dialog>	  	
 	    <finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-		  	<x>-0</x><y>0</y><height>100%</height><width>34%</width>
+		  	<x>-0</x><y>0</y><height>100%</height><width>21/64</width>
 		  </action> 
 		</finalactions>
 	  </action> 
     </keybind>
-    <keybind key="W-C-Next"><!-- horizontal tiling right -->
+    <keybind key="W-C-KP_0"><!-- horizontal tiling right -->
 	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
 	  <action name="MoveResizeTo">
-	  	<x>0</x><y>0</y><height>100%</height><width>34%</width>
+	  	<x>0</x><y>0</y><height>100%</height><width>21/64</width>
 	  </action>
 	  <action name="NextWindow">
 	  	<interactive>no</interactive><dialog>none</dialog>	  	
 	    <finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-		  	<x>-0</x><y>0</y><height>100%</height><width>66%</width>
+		  	<x>-0</x><y>0</y><height>100%</height><width>43/64</width>
 		  </action> 
 		</finalactions>
 	  </action> 
@@ -582,7 +604,7 @@
 	  <action name="NextWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
 		  	<x>-0</x><y>0</y><height>50%</height><width>50%</width> <!-- left -->
 		  </action>
@@ -591,7 +613,7 @@
 	  <action name="PreviousWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
 		  	<x>-0</x><y>-0</y><height>50%</height><width>50%</width> <!-- bottom-right -->
 		  </action>
@@ -608,7 +630,7 @@
 	  <action name="NextWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
 		  	<x>0</x><y>0</y><height>50%</height><width>50%</width>
 		  </action>
@@ -617,7 +639,7 @@
 	  <action name="PreviousWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
 		  	<x>0</x><y>-0</y><height>50%</height><width>50%</width>
 		  </action>
@@ -629,23 +651,23 @@
     <keybind key="W-A-Insert"><!-- tiling 3 windows (left, top-right, bottom-right) -->
 	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
 	  <action name="MoveResizeTo">
-		  	<x>0</x><y>0</y><height>100%</height><width>66%</width> <!-- top-right -->
+		  	<x>0</x><y>0</y><height>100%</height><width>43/64</width> <!-- top-right -->
 	  </action>
 	  <action name="NextWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-		  	<x>-0</x><y>0</y><height>50%</height><width>34%</width> <!-- left -->
+		  	<x>-0</x><y>0</y><height>50%</height><width>21/64</width> <!-- left -->
 		  </action>
 		</finalactions>	  	
 	  </action>
 	  <action name="PreviousWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-		  	<x>-0</x><y>-0</y><height>50%</height><width>34%</width> <!-- bottom-right -->
+		  	<x>-0</x><y>-0</y><height>50%</height><width>21/64</width> <!-- bottom-right -->
 		  </action>
 		</finalactions>	  	
 	  </action>
@@ -655,23 +677,23 @@
     <keybind key="W-A-Home"><!-- tiling 3 windows (right, top-left, bottom-left) -->
 	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
 	  <action name="MoveResizeTo">
-		  	<x>-0</x><y>0</y><height>100%</height><width>34%</width>
+		  	<x>-0</x><y>0</y><height>100%</height><width>21/64</width>
 	  </action>
 	  <action name="NextWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-		  	<x>0</x><y>0</y><height>50%</height><width>66%</width>
+		  	<x>0</x><y>0</y><height>50%</height><width>43/64</width>
 		  </action>
 		</finalactions>	  	
 	  </action>
 	  <action name="PreviousWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-		  	<x>0</x><y>-0</y><height>50%</height><width>66%</width>
+		  	<x>0</x><y>-0</y><height>50%</height><width>43/64</width>
 		  </action>
 		</finalactions>	  	
 	  </action>
@@ -681,23 +703,23 @@
     <keybind key="W-C-Insert"><!-- tiling 3 windows (left, top-right, bottom-right) -->
 	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
 	  <action name="MoveResizeTo">
-		  	<x>0</x><y>0</y><height>100%</height><width>34%</width> <!-- top-right -->
+		  	<x>0</x><y>0</y><height>100%</height><width>21/64</width> <!-- top-right -->
 	  </action>
 	  <action name="NextWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-		  	<x>-0</x><y>0</y><height>50%</height><width>64%</width> <!-- left -->
+		  	<x>-0</x><y>0</y><height>50%</height><width>43/64</width> <!-- left -->
 		  </action>
 		</finalactions>	  	
 	  </action>
 	  <action name="PreviousWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-		  	<x>-0</x><y>-0</y><height>50%</height><width>66%</width> <!-- bottom-right -->
+		  	<x>-0</x><y>-0</y><height>50%</height><width>43/64</width> <!-- bottom-right -->
 		  </action>
 		</finalactions>	  	
 	  </action>
@@ -707,49 +729,208 @@
     <keybind key="W-C-Home"><!-- tiling 3 windows (right, top-left, bottom-left) -->
 	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
 	  <action name="MoveResizeTo">
-		  	<x>-0</x><y>0</y><height>100%</height><width>66%</width>
+		  	<x>-0</x><y>0</y><height>100%</height><width>43/64</width>
 	  </action>
 	  <action name="NextWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-		  	<x>0</x><y>0</y><height>50%</height><width>34%</width>
+		  	<x>0</x><y>0</y><height>50%</height><width>21/64</width>
 		  </action>
 		</finalactions>	  	
 	  </action>
 	  <action name="PreviousWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-		  	<x>0</x><y>-0</y><height>50%</height><width>34%</width>
+		  	<x>0</x><y>-0</y><height>50%</height><width>43/64</width>
 		  </action>
 		</finalactions>	  	
 	  </action>
-    </keybind>     
-        
-    <!-- 3 Windows Horizontal -->
-    <keybind key="W-KP_Enter"><!-- tiling 3 windows (right, middle, left) -->
+    </keybind>
+    
+    <!-- 3 Split in center, large one on top -->    
+    <keybind key="W-Prior">
 	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
 	  <action name="MoveResizeTo">
-		<x>center</x><y>0</y><height>100%</height><width>34%</width> <!-- center -->
+		  	<x>0</x><y>0</y><height>50%</height><width>100%</width> <!-- top -->
 	  </action>
 	  <action name="NextWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-		  	<x>-0</x><y>0</y><height>100%</height><width>33%</width> <!-- right -->
+		  	<x>0</x><y>-0</y><height>50%</height><width>50%</width> <!-- bottom-left -->
 		  </action>
 		</finalactions>	  	
 	  </action>
 	  <action name="PreviousWindow">
 	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
 	  	<finalactions>
-	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
 		  <action name="MoveResizeTo">
-  			<x>0</x><y>0</y><height>100%</height><width>33%</width> <!-- left -->
+		  	<x>-0</x><y>-0</y><height>50%</height><width>50%</width> <!-- bottom-right -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+    </keybind>
+    
+     <!-- 3 Split in center, large one on bottom -->    
+    <keybind key="W-Next"><!-- tiling 3 windows (right, top-left, bottom-left) -->
+	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  <action name="MoveResizeTo">
+		  	<x>0</x><y>-0</y><height>50%</height><width>100%</width>
+	  </action>
+	  <action name="NextWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+		  	<x>0</x><y>0</y><height>50%</height><width>50%</width><!-- top-left -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+	  <action name="PreviousWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+		  	<x>-0</x><y>0</y><height>50%</height><width>50%</width><!-- top-right -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+    </keybind>
+    
+    <!-- 3 Split right off center, large one on top -->    
+    <keybind key="W-A-Prior">
+	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  <action name="MoveResizeTo">
+		  	<x>0</x><y>0</y><height>50%</height><width>100%</width> <!-- top -->
+	  </action>
+	  <action name="NextWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+		  	<x>0</x><y>-0</y><height>50%</height><width>43/64</width> <!-- bottom-left -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+	  <action name="PreviousWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+		  	<x>-0</x><y>-0</y><height>50%</height><width>21/64</width> <!-- bottom-right -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+    </keybind>
+    
+     <!-- 3 Split right off center, large one on bottom -->    
+    <keybind key="W-A-Next"><!-- tiling 3 windows (right, top-left, bottom-left) -->
+	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  <action name="MoveResizeTo">
+		  	<x>0</x><y>-0</y><height>50%</height><width>100%</width>
+	  </action>
+	  <action name="NextWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+		  	<x>0</x><y>0</y><height>50%</height><width>43/64</width><!-- top-left -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+	  <action name="PreviousWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+		  	<x>-0</x><y>0</y><height>50%</height><width>21/64</width><!-- top-right -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+    </keybind>
+   
+       <!-- 3 Split in left off center, large one on the left -->    
+    <!-- 3 Split left off center, large one on top -->    
+    <keybind key="W-C-Prior">
+	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  <action name="MoveResizeTo">
+		  	<x>0</x><y>0</y><height>50%</height><width>100%</width> <!-- top -->
+	  </action>
+	  <action name="NextWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+		  	<x>0</x><y>-0</y><height>50%</height><width>21/64</width> <!-- bottom-left -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+	  <action name="PreviousWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+		  	<x>-0</x><y>-0</y><height>50%</height><width>43/64</width> <!-- bottom-right -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+    </keybind>
+    
+     <!-- 3 Split left off center, large one on bottom -->    
+    <keybind key="W-C-Next"><!-- tiling 3 windows (right, top-left, bottom-left) -->
+	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  <action name="MoveResizeTo">
+		  	<x>0</x><y>-0</y><height>50%</height><width>100%</width>
+	  </action>
+	  <action name="NextWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+		  	<x>0</x><y>0</y><height>50%</height><width>21/64</width><!-- top-left -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+	  <action name="PreviousWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+		  	<x>-0</x><y>0</y><height>50%</height><width>43/64</width><!-- top-right -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+    </keybind>
+    
+    
+        
+    <!-- 3 Windows Horizontal -->
+    <keybind key="W-End"><!-- tiling 3 windows (right, middle, left) -->
+	  <action name="UnmaximizeFull"/><action name="Undecorate"/>
+	  <action name="MoveResizeTo">
+		<x>center</x><y>0</y><height>100%</height><width>22/64</width> <!-- center -->
+	  </action>
+	  <action name="NextWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+		  	<x>-0</x><y>0</y><height>100%</height><width>21/64</width> <!-- right -->
+		  </action>
+		</finalactions>	  	
+	  </action>
+	  <action name="PreviousWindow">
+	  	<interactive>no</interactive><dialog>none</dialog><linear>yes</linear>
+	  	<finalactions>
+	  	  <action name="UnmaximizeFull"/><action name="Undecorate"/><action name="Raise"/>
+		  <action name="MoveResizeTo">
+  			<x>0</x><y>0</y><height>100%</height><width>21/64</width> <!-- left -->
 		  </action>
 		</finalactions>	  	
 	  </action>
