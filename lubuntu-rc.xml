@@ -270,6 +270,12 @@
         <command>lxsession-default screenshot window</command>
       </action>
     </keybind>
+    <!-- Log out dialog -->
+    <keybind key="S-F4">
+      <action name="Execute">
+        <command>lxde-logout</command>
+      </action>
+    </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
@@ -601,12 +607,12 @@
       </action>
     </keybind>
     <!-- Multi monitor window movement -->
-    <keybind key="C-S-Left">
+    <keybind key="W-S-Left">
       <action name="MoveResizeTo">
         <monitor>next</monitor>
       </action>
     </keybind>
-    <keybind key="C-S-Right">
+    <keybind key="W-S-Right">
       <action name="MoveResizeTo">
         <monitor>prev</monitor>
       </action>
@@ -705,6 +711,35 @@
             <y>0</y>
             <height>100%</height>
             <width>43/64</width>
+          </action>
+        </finalactions>
+      </action>
+    </keybind>
+    <!-- Multi monitor 2-window movement -->
+    <keybind key="C-S-KP_0">
+      <action name="MoveResizeTo">
+        <monitor>next</monitor>
+      </action>
+      <action name="NextWindow">
+        <interactive>no</interactive>
+        <dialog>none</dialog>
+        <finalactions>
+          <action name="MoveResizeTo">
+            <monitor>next</monitor>
+          </action>
+        </finalactions>
+      </action>
+    </keybind>
+    <keybind key="C-S-KP_Enter">
+      <action name="MoveResizeTo">
+        <monitor>prev</monitor>
+      </action>
+      <action name="NextWindow">
+        <interactive>no</interactive>
+        <dialog>none</dialog>
+        <finalactions>
+          <action name="MoveResizeTo">
+            <monitor>prev</monitor>
           </action>
         </finalactions>
       </action>
@@ -1264,6 +1299,53 @@
             <height>100%</height>
             <width>21/64</width>
             <!-- left -->
+          </action>
+        </finalactions>
+      </action>
+    </keybind>
+    <!-- Multi monitor 3-window movement -->
+    <keybind key="C-S-Home">
+      <action name="MoveResizeTo">
+        <monitor>next</monitor>
+      </action>
+      <action name="NextWindow">
+        <interactive>no</interactive>
+        <dialog>none</dialog>
+        <finalactions>
+          <action name="MoveResizeTo">
+            <monitor>next</monitor>
+          </action>
+        </finalactions>
+      </action>
+      <action name="PreviousWindow">
+        <interactive>no</interactive>
+        <dialog>none</dialog>
+        <finalactions>
+          <action name="MoveResizeTo">
+            <monitor>next</monitor>
+          </action>
+        </finalactions>
+      </action>
+    </keybind>
+    <keybind key="C-S-Insert">
+      <action name="MoveResizeTo">
+        <monitor>prev</monitor>
+      </action>
+      <action name="NextWindow">
+        <interactive>no</interactive>
+        <dialog>none</dialog>
+        <finalactions>
+          <action name="MoveResizeTo">
+            <monitor>prev</monitor>
+          </action>
+        </finalactions>
+      </action>
+      <action name="PreviousWindow">
+        <interactive>no</interactive>
+        <dialog>none</dialog>
+        <finalactions>
+          <action name="MoveResizeTo">
+            <monitor>next</monitor>
           </action>
         </finalactions>
       </action>
