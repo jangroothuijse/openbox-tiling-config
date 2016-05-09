@@ -273,7 +273,7 @@
     <!-- Log out dialog -->
     <keybind key="S-F4">
       <action name="Execute">
-        <command>lxde-logout</command>
+        <command>lubuntu-logout</command>
       </action>
     </keybind>
     <!-- Keybindings for window switching -->
