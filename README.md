@@ -32,3 +32,5 @@ the screen.
 ### Misc:
 Super key + Delete toggles window decorations, all multi-window tiling combination disable these decoration, you
 can user Super key + Delete to reenable them.
+
+http://groothuij.se/openbox-lubuntu-more-window-tiling/
